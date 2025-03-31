@@ -1,37 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- main css -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Courgette"
-      rel="stylesheet"
-    />
 
-    <!-- font awesome -->
-    <link rel="stylesheet" href="css/all.css" />
-    <title>Renters</title>
-    <style></style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
 
-  <body>
-    <!--
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css" />
+  <title>Renters</title>
+  <style></style>
+</head>
+
+<body>
+  <!-- header -->
+  <header id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-5">
+      <a href="#home" class="navbar-brand">
+        <img src="img/logo.png" alt="company logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class=" nav-item active">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#home" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#featured" class="nav-link">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tour" class="nav-link">Tour</a>
+          </li>
+        </ul>
+        <div class="d-none d-lg-flex align-items-baseline">
+          <p class="text-white mx-4">
+            <span class="mx-2 phone-icon"><i class="fas fa fa-phone fa-fw"></i></span>
+            + 123-456-789
+          </p>
+          <button class="btn green__btn text-capitalize">book now</button>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- info section -->
+        <div class="col-lg-5 text-capitalize py-5 px-5">
+          <h3>santa monica bay property</h3>
+          <h1>modern apartment</h1>
+          <p><span>1500 preshing drive santa monica , CA 90060</span></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita impedit, officia blanditiis
+            excepturi illum.</p>
+          <a href="#" class="btn green__btn">read more</a>
+          <div class="banner-info__footer d-flex justify-content-around py-2">
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-bed"></i>
+              <p class="mb-0">3</p>
+              <p>bed</p>
+            </div>
+            <!-- end of single info -->
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-bed"></i>
+              <p class="mb-0">3</p>
+              <p>bath</p>
+            </div>
+            <!-- end of single info -->
+            <!-- single info -->
+            <div class="text-white text-center">
+              <i class="fas fa-bed"></i>
+              <p class="mb-0">3</p>
+              <p>sq.ft</p>
+            </div>
+            <!-- end of single info -->
+          </div>
+        </div>
+        <!-- end of info section -->
+        <!-- banner img -->
+        <div class="col-lg-7 banner-img">
+          <div class="banner-img__footer px-3">
+            <div class="center-div">
+              <p class="text-capitalize text-green mb-0">rent price</p>
+              <h4 class="text-white">$ 1,535/mo</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of banner img -->
+      </div>
+    </div>
+  </header>
+  <!-- end of header -->
+  <!-- about -->
+
+  <session id="about" class="about py-5">
+    <div class="container">
+      <div class="row">
+        <!-- about image -->
+        <div class="col-10 col-md-6 mx-auto my-3">
+          <div class="card">
+            <div class="img-container">
+              <img src="img/featured-1.jpeg" alt="property image" class="card-img" />
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#" class="featured-icon-right">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title text-capitalize">
+                <h5 class="mb-3">excellent property in santa monica</h5>
+                <p>
+                  <span class="text-green">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nemo?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- about info -->
+        <div class="col-10 col-md-6 mx-auto my-3">
+          <!-- section title -->
+          <div class="row">
+            <div class="col text-center">
+              <h3 class="text-green text-slant text-capitalize">renters realtors</h3>
+              <h1 class="text-uppercase">about us</h1>
+              <!-- custom Under line css -->
+              <div class="title-underline my-3 bg-secondary">
+                <div class="title-underline__center"></div>
+              </div>
+              <!-- end custom underline -->
+              <p class="w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <!-- end of section title -->
+          <!-- about  info body -->
+          <h3 class="text-uppercase mb-3">book now total</h3>
+          <blockquote class="blockquote text-right text-green mb-3">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quos maxime voluptatum provident
+              voluptatibus minima?</p>
+            <footer class="blockquote-footer text-green">someone famous in</footer>
+          </blockquote>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus qui
+            tempora dolore
+            laboriosam
+            doloribus itaque hic inventore eius laudantium!</p>
+          <a href="" class="btn green__btn text-capitalize">book now</a>
+          <!-- end of about info body -->
+        </div>
+      </div>
+    </div>
+  </session>
+  <!-- end of about section -->
+  <!-- featured -->
+  <section id="featured" class="featured py-5">
+    <div class="container">
+      <!-- session title -->
+      <div class="row">
+        <div class="col text-center section-title mb-3">
+          <h3 class="text-green text-slant text-capitalize">renter realtors</h3>
+          <h1 class="text-uppercase">featured properties</h1>
+          <div class="title-underline my-3 bg-secondary">
+            <div class="title-underline__center"></div>
+          </div>
+          <p class="w-75 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <!-- end of section title -->
+      <div class="row">
+        <!-- single property -->
+        <div class="col-10 col-md-6 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <div class="img-container">
+              <img src="img/featured-1.jpeg" alt="property image" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left"><i class=" fas fa-chevron-left"></i></a>
+                <a href="#" class="featured-icon-right"><i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-title text-capitalize">
+                <h5>excellent property in santa monica</h5>
+                <p>
+                  <span class="text-green">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  1500 pershing drive santa monica, CA 90060
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single  property -->
+        <!-- single property -->
+        <div class="col-10 col-md-6 col-lg-4 mx-auto my-3">
+          <div class="card">
+            <div class="img-container">
+              <img src="img/featured-2.jpeg" alt="property image" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#" class="featured-icon-right">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title text-capitalize">
+                <h5 class="">excillent property in santa monica</h5>
+                <p>
+                  <sapn class="text-green"><i class="fas fa-map-marker-alt"></i></sapn>
+                  1500 pershing drive santa monica, CA 90060
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single property -->
+        <!-- single property -->
+        <div class="col-10 col-md-6 col-lg-4 mx-auto">
+          <div class="card">
+            <div class="img-container">
+              <img src="img/featured-3.jpeg" alt="property image" class="card-img-top">
+              <div class="featured-icons">
+                <a href="#" class="featured-icon-left">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#" class="featured-icon-right">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- card body -->
+            <div class="card-body">
+              <div class="card-title text-capitalize">
+                <h5 class="mb-3">excellent property in santa monica</h5>
+                <p>
+                  <span class="text-green">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  1500 pershing drive santa monica, CA 90060
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- end of single property -->
+      </div>
+    </div>
+  </section>
+  <!-- end of featured -->
+  <!-- contact -->
+  <section class="contact py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-3">
+          <h3 class="text-capitalize">
+            <span class="contact-icon mx-2">
+              <i class="fas fa-envelope"></i>
+            </span>
+            sign up our newsletter
+          </h3>
+        </div>
+        <div class="col-10 mx-auto col-md-6 my-3">
+          <form class="form-inline justify-content-end">
+            <input type="text" class="form-control text-capitalize mx-2 my-2" placeholder="your email" />
+            <button type="submit" class="btn ">sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contact -->
+  <!-- services section -->
+  <section class="services py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row flex-lg-row-reverse">
+        <!-- services info -->
+        <div class="col-lg-8 my-3">
+          <!-- section title -->
+          <div class="row">
+            <div class="col text-center">
+              <h3 class="text-green">renters realtors</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single service -->
+          <div class="col-10">
+            <div class="service-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <!-- service info -->
+            <div>
+              <h6>best nighbourhood</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, quo.</p>
+            </div>
+          </div>
+          <!-- end of single service -->
+        </div>
+        <!-- services photo -->
+        <div class="col-10 mx-auto col-lg-4 align-self-center">
+          <div class="img-container">
+            <img src="img/featured-1.jpeg" class="img-fluid" alt="">
+            <a href="#" class="text-capitalize services-info-text p-2"></a>
+          </div>
+        </div>
+      </div>
+      <!-- end of section title -->
+
+    </div>
+  </section>
+  <!-- end of services section -->
+
+  <!--
       https://www.iconfinder.com/icons/2012967/architecture_design_home_owner_house_housing_real_estate_roof_icon
       Creative Commons (Attribution 3.0 Unported);
       https://www.iconfinder.com/Myart
     -->
 
-    <!-- jquery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- script js -->
-    <script src="js/app.js"></script>
-  </body>
+  <!-- jquery -->
+  <script src=" js/jquery-3.3.1.min.js">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
 </html>
