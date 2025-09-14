@@ -1,31 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- main css -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Courgette"
-      rel="stylesheet"
-    />
 
-    <!-- font awesome -->
-    <link rel="stylesheet" href="css/all.css" />
-    <title>Comfy Sloth</title>
-    <style></style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
 
-  <body>
-    <!-- jquery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- script js -->
-    <script src="js/app.js"></script>
-  </body>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css" />
+  <title>Comfy Sloth</title>
+  <style></style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a href=" index.html" class="navbar-brand">
+        <img src="img/logo.png" alt="company logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item  mx-2"><a href="products.html" class="nav-link ">Products</a></li>
+          <li class="nav-item active nav-active mx-2"><a href="singleproduct.html" class="nav-link">Single Product</a>
+          </li>
+          <li class="nav-item mx-2"><a href="store.html" class="nav-link">Store</a></li>
+        </ul>
+      </div>
+      <div class="navbar-icons d-none d-lg-flex">
+        <div class="navbar-icon mx-2">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="navbar-icon mx-2">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+  <!-- banner -->
+  <div class="banner-single-product d-flex justify-content-center align-items-center text-center pl-3 pl-lg-5">
+    <div>
+      <h1 class="text-capitalize text-yellow text-slanted display-4">comfy sloth</h1>
+      <h1 class="text-capitalize font-weight-bold display-4">single product</h1>
+    </div>
+  </div>
+  <!-- single product -->
+  <section class="single-product py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-aut col-lg-4 text-center my-5">
+          <div class="single-product-img-container">
+            <img src="img/img-products/product-1.png" class="img-fluid" at="" />
+          </div>
+
+          <div class="row single-product-photos">
+            <!-- single photo -->
+            <div class="col-2  col-sm-2 single-product-photo p-1">
+              <img src="img/img-products/product-1.png" class="img-fluid" alt="">
+            </div>
+            <!-- end of single photo -->
+            <!-- single photo -->
+            <div class="col-2  col-sm-2 single-product-photo p-1">
+              <img src="img/img-products/product-1.png" class="img-fluid" alt="">
+            </div>
+            <!-- end of single photo -->
+            <!-- single photo -->
+            <div class="col-2  col-sm-2 single-product-photo p-1">
+              <img src="img/img-products/product-1.png" class="img-fluid" alt="">
+            </div>
+            <!-- end of single photo -->
+            <!-- single photo -->
+            <div class="col-2  col-sm-2 single-product-photo p-1">
+              <img src="img/img-products/product-1.png" class="img-fluid" alt="">
+            </div>
+            <!-- end of single photo -->
+            <!-- single photo -->
+            <div class="col-2  col-sm-2 single-product-photo p-1">
+              <img src="img/img-products/product-1.png" class="img-fluid" alt="">
+            </div>
+            <!-- end of single photo -->
+            <!-- single photo -->
+            <div class="col-2  col-sm-2 single-product-photo p-1">
+              <img src="img/img-products/product-1.png" class="img-fluid" alt="">
+            </div>
+            <!-- end of single photo -->
+          </div>
+        </div>
+        <!-- info -->
+        <div class="col-10 mx-auto col-lg-8">
+          <!-- ratings -->
+          <div class="ratings">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <!-- end of ratings -->
+          <h2>premium office armchair</h2>
+          <h2>$10.00 - $200.00</h2>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusamus
+            quasi aspernatur impedit
+            quia repellat doloremque sunt facilis nobis excepturi.</p>
+
+          <!-- colors -->
+          <h5 class="text-uppercase">
+            <span>colors:</span>
+            <span class="d-inline-block products-color products-color-black mr-2"></span>
+            <span class="d-inline-block products-color products-color-red mr-2"></span>
+            <span class="d-inline-block products-color products-color-blue mr-2"></span>
+            <span class="d-inline-block products-color products-color-green mr-2"></span>
+            <span class="d-inline-block products-color products-color-yellow mr-2"></span>
+          </h5>
+          <!-- end of colors -->
+          <!-- sizes -->
+          <h5 class="text-uppercase">
+            size:
+            <span class="mx-2">xs</span>
+            <span class="mx-2">s</span>
+            <span class="mx-2">m</span>
+            <span class="mx-2">l</span>
+            <span class="mx-2">xl</span>
+          </h5>
+          <div class="d-flex flex-wrap">
+            <div class="d-flex my-2">
+              <span class="btn btn-black mx-1">-</span>
+              <span class="btn btn-black mx-1">4</span>
+              <span class="btn btn-black mx-1">+</span>
+            </div>
+            <button class="btn btn-yellow my-2 mx-2 d-inline">wishlist</button>
+            <button class="btn btn-yellow my-2 mx-2 d-inline">add to cart</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end of single product -->
+  <!-- product info -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="jumbotron">
+            <!-- product info links -->
+            <div class="d-flex flex-wrap justify-content-around my-3 text-center">
+              <a href="#" class="product-info-link">
+                <h4 class="text-capitalize">description</h4>
+              </a>
+              <a href="#" class="product-info-link">
+                <h4 class="text-capitalize">additional information</h4>
+              </a>
+              <a href="#" class="product-info-link">
+                <h4 class="text-capitalize">reviews (25)</h4>
+              </a>
+            </div>
+            <!-- end of product info links -->
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptas qui, rem nobis
+              tempore sint minima
+              nam ipsa dolorum eaque alias non totam error perferendis tempora ab id nostrum recusandae in a iure. Dolor
+              eligendi consequatur libero ex quas, molestias quae quasi! Fuga laboriosam ex dignissimos obcaecati?
+              Accusantium ex saepe doloribus eaque aut totam sunt quibusdam adipisci dolor tempore. Eaque eius doloribus
+              odio error! Accusantium laboriosam temporibus modi magni, sequi maxime explicabo laudantium cumque aut?
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- end of product info -->
+
+  <!-- featured section -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto text-center">
+          <h1 class="text-uppercase">featured products</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea fugiat nemo ratione amet.</p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-1.png" class="img-fluid" alt="" />
+            <span class="featured-search-icon" data-toggle="modal" data-target="productModal"><i
+                class="fas fa-search"></i></span>
+
+            <a href="#" class="featured-store-link">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!--end of single product -->
+        <!-- single product -->
+        <!--end of single product -->
+        <!-- single product -->
+        <!--end of single product -->
+        <!-- single product -->
+        <!--end of single product -->
+      </div>
+    </div>
+  </section>
+  <!-- end of featured section -->
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
 </html>
