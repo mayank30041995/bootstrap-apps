@@ -2746,6 +2746,7 @@ label {
 }
 
 .team-col4-content {
+	height: 70vh;
 	background-color: #ffffff;
 	border-bottom: 1px solid #eeeeee;
 	border-left: 1px solid #eeeeee;
