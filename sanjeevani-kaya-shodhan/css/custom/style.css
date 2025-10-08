@@ -941,7 +941,7 @@ h6 {
 }
 
 .slider-bgimage1 {
-	background-image: url("../../images/slider-image-1.jpg");
+	background-image: url("../../images/slider-image-1.webp");
 	background-size: cover;
 	/* scales image to cover the element */
 	background-position: center;
@@ -955,7 +955,7 @@ h6 {
 }
 
 .slider-bgimage2 {
-	background-image: url("../../images/slider-image-2.jpg");
+	background-image: url("../../images/slider-image-2.webp");
 	background-size: cover;
 	/* scales image to cover the element */
 	background-position: center;
@@ -969,7 +969,7 @@ h6 {
 }
 
 .slider-bgimage3 {
-	background-image: url("../../images/slider-image-3.jpg");
+	background-image: url("../../images/slider-image-3.webp");
 	background-size: cover;
 	/* scales image to cover the element */
 	background-position: center;
@@ -2271,7 +2271,7 @@ label {
 /* Yoga Cta */
 
 .cta-bgimage2 {
-	background-image: url("../../images/main-hall.JPG");
+	background-image: url("../../images/main-hall.webp");
 }
 
 .cta-bgimage2 .cta-padding2 {
@@ -3809,15 +3809,15 @@ only screen and (min-resolution: 1.5dppx) {
 
 	/* Yoga Slider Header Retina Images */
 	.slider-bgimage1 {
-		background-image: url("../../images/slider-image-1@2x.jpg");
+		background-image: url("../../images/slider-image-1@2x.webp");
 	}
 
 	.slider-bgimage2 {
-		background-image: url("../../images/slider-image-2@2x.jpg");
+		background-image: url("../../images/slider-image-2@2x.webp");
 	}
 
 	.slider-bgimage3 {
-		background-image: url("../../images/slider-image-3@2x.jpg");
+		background-image: url("../../images/slider-image-3@2x.webp");
 	}
 
 	/* Yoga Cta Form Retina Image */
