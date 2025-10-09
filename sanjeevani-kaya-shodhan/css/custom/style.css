@@ -155,6 +155,9 @@ h6 {
 }
 
 /*========================================== 1.GLOBAL CSS END ===========================================*/
+.owl-carousel {
+	display: block !important;
+}
 
 /*========================================== 2.COMMON CSS START ===========================================*/
 .section-padding {
@@ -3075,11 +3078,11 @@ label {
 	vertical-align: middle;
 }
 
-#owl-demo5 .owl-pagination,
+/* #owl-demo5 .owl-pagination,
 #owl-demo4 .owl-pagination {
 	display: none;
 	padding-top: 0px;
-}
+} */
 
 
 /* Spa Testimonials */
