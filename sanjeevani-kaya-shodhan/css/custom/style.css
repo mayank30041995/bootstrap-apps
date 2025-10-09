@@ -506,7 +506,7 @@ h5 {
 
 .fun-facts-area {
 	position: relative;
-	background-image: url(../../images/fun-facts-bg.jpg);
+	background-image: url(../../images/fun-facts-bg.webp);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
