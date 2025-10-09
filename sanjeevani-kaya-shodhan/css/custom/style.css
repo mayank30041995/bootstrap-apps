@@ -54,6 +54,12 @@ body {
 	line-height: 24px;
 }
 
+.btn-primary {
+	color: #fff;
+	background-color: #33a9ee !important;
+	border-color: #33a9ee !important;
+}
+
 a:hover,
 a {
 	color: inherit;
@@ -157,6 +163,25 @@ h6 {
 /*========================================== 1.GLOBAL CSS END ===========================================*/
 .owl-carousel {
 	display: block !important;
+}
+
+.circle-icon {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 3px;
+	height: 31px;
+	width: 31px;
+	background-color: #33a9ee;
+	color: #FFF;
+	border-radius: 50%;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.circle-icon:hover {
+	color: #FFF;
 }
 
 /*========================================== 2.COMMON CSS START ===========================================*/
