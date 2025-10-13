@@ -14,7 +14,7 @@ $(document).ready(function () {
     nav: false,
     dots: false,
     autoplay: true,
-    autoplayTimeout: 8000,
+    autoplayTimeout: 6000,
     autoplayHoverPause: false,
     smartSpeed: 1000,
     items: 1,
