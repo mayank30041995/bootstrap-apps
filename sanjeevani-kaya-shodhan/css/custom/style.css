@@ -428,6 +428,7 @@ h5 {
 	width: 50px;
 	height: 50px;
 	display: block;
+	z-index: 99;
 	text-decoration: none;
 	-webkit-border-radius: 35px;
 	-moz-border-radius: 35px;
@@ -1134,6 +1135,20 @@ h5 {
 	padding: 0px 20px 0 20px;
 }
 
+/* Scoped CSS for only #owl-demo5 */
+#owl-demo5 .item img {
+	width: 100%;
+	height: 200px;
+	/* Adjust as needed */
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* Optional: spacing between slides */
+#owl-demo5 .owl-stage-outer {
+	padding: 0 5px;
+}
+
 /* #owl-demo5 .owl-pagination,
 #owl-demo4 .owl-pagination {
 	display: none;
@@ -1296,6 +1311,10 @@ only screen and (min-resolution: 1.5dppx) {
 
 
 @media only screen and (min-width: 250px) and (max-width: 767px) {
+	#more-gallery-demo {
+		max-height: 250.03px !important;
+		width: 100%;
+	}
 
 	.container {
 		max-width: 100%;
@@ -1597,6 +1616,28 @@ only screen and (min-resolution: 1.5dppx) {
 		display: inline-block !important;
 		vertical-align: middle !important;
 	}
+
+	#more-gallery-demo {
+		max-height: 183.03px !important;
+		width: 100%;
+	}
 }
 
 /*========================================== 20.MEDIA QUERIES END ===========================================*/
+#more-gallery-demo {
+	max-height: 163.03px;
+	width: 100%;
+}
+
+/* Scoped to .my-unique-carousel only */
+.my-unique-carousel .item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* Optional: spacing between slides */
+.my-unique-carousel .owl-stage-outer {
+	padding: 0 5px;
+}
