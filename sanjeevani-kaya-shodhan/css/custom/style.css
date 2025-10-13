@@ -760,7 +760,7 @@ h5 {
 /* Yoga Services */
 
 .services-col-3 {
-	height: 16rem;
+	height: 100%;
 	border: 2px solid #f6f6f6;
 	padding: 60px 30px 30px 30px;
 	-webkit-transition: all 0.3s ease-in-out;
