@@ -11,7 +11,7 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: false,
-    dots: false,
+    dots: true,
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
@@ -47,7 +47,7 @@ $(document).ready(function () {
   $('#owl-demo5').owlCarousel({
     loop: true,
     margin: 10,
-    dots: false,
+    dots: true,
     nav: false,
     autoplay: true,
     autoplayTimeout: 2000, // move every 2 seconds
