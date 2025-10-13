@@ -1627,7 +1627,8 @@ only screen and (min-resolution: 1.5dppx) {
 
 /*========================================== 20.MEDIA QUERIES END ===========================================*/
 #more-gallery-demo {
-	max-height: 185px;
+	height: 20rem;
+	min-height: fit-content;
 	width: 100%;
 }
 
