@@ -1070,7 +1070,8 @@ h5 {
 }
 
 .team-col4-content {
-	height: 70vh;
+	height: 28rem;
+	min-height: 26rem;
 	background-color: #ffffff;
 	border-bottom: 1px solid #eeeeee;
 	border-left: 1px solid #eeeeee;
