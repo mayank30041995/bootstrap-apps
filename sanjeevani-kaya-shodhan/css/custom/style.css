@@ -231,6 +231,7 @@ h5 {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	/* align-items: center; */
 }
 
 /*========================================== 2.COMMON CSS END ===========================================*/
