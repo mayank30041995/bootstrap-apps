@@ -8,6 +8,20 @@
 =================================================================================================================================*/
 
 $(document).ready(function () {
+  $('#owl-demo4').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    smartSpeed: 1000,
+    items: 1,
+    slideBy: 1,
+  })
+})
+$(document).ready(function () {
   $('#owl-demo3').owlCarousel({
     loop: true,
     margin: 10,
