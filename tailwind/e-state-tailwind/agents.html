@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>EstatePro - Tailwind CSS Real Estate Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="EstatePro - Full-featured, professional-looking Real Estate, RealEstate and startup website template. Multipurpose Tailwind CSS Landing Page Template">
+    <meta name="keywords"
+        content="saas, saas template, site template, software, startup, digital product, html5, tailwindcss landing, marketing, tailwindcss, agency, digital agency, it solutions, vitejs">
+    <meta content="Coderthemes" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="estatepro/assets/favicon-D0gd9Jx6.ico" />
+    <!-- App Js (Mandatory in All Pages) -->
+    <script type="module" crossorigin src="estatepro/assets/app-N7WemSyv.js"></script>
+    <link rel="stylesheet" crossorigin href="estatepro/assets/app-DiqwdW61.css">
+</head>
+
+<body>
+
+    <header class="bg-white relative z-20 top-0 transition-all duration-300">
+        <div class="container">
+            <div class="flex items-center justify-between lg:py-7.5 py-3.75">
+                <div class="text-lg font-bold">
+                    <a href="index.html">
+                        <img src="estatepro/assets/estatepro-C7MboVD_.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <div id="navbar" class="lg:flex hidden justify-center">
+                    <a href="index.html" class="inline-flex items-center font-medium text-black my-2.5 mx-5">Home</a>
+
+                    <div class="hs-dropdown [--trigger:hover] relative inline-flex  transition-all duration-300">
+                        <button id="hs-dropdown-hover-event" type="button"
+                            class="hs-dropdown-toggle cursor-pointer !no-underline text-black my-2.5 mx-5 flex items-center font-medium"
+                            aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
+                            Pages
+                            <i class="iconify tabler--chevron-down ps-5 size-4"></i>
+                        </button>
+
+                        <div class="hs-dropdown-menu border border-primary transition-[opacity,margin] bg-body-bg rounded-2xl duration hs-dropdown-open:opacity-100 opacity-0 hidden w-[430]  mt-2 after:h-4 after:absolute after:-bottom-4 after:start-0 after:w-full before:h-4 before:absolute before:-top-4 before:start-0 before:w-full"
+                            role="menu" aria-orientation="vertical" aria-labelledby="hs-dropdown-hover-event">
+                            <div class="grid grid-cols-2 p-5 gap-10">
+                                <div>
+                                    <a href="index.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Home
+                                    </a>
+
+                                    <a href="home2.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Home 2
+                                    </a>
+
+                                    <a href="about.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        About
+                                    </a>
+
+                                    <a href="properties-v1.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Properties v1
+                                    </a>
+
+                                    <a href="properties-v2.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Properties v2
+                                    </a>
+
+                                    <a href="property-locations.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Property Location
+                                    </a>
+
+                                    <a href="apartments.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Aparments
+                                    </a>
+
+                                    <a href="add-property.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Add Property
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="pricing.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Pricing
+                                    </a>
+
+                                    <a href="agents.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Agents
+                                    </a>
+
+                                    <a href="blog.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Blog
+                                    </a>
+
+                                    <a href="careers.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Careers
+                                    </a>
+
+                                    <a href="services.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Services
+                                    </a>
+
+                                    <a href="reviews.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Reviews
+                                    </a>
+
+                                    <a href="faq.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        FAQs
+                                    </a>
+
+                                    <a href="contact.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Contact
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="properties-v1.html"
+                        class="inline-flex items-center font-medium text-black my-2.5 mx-5">Properties</a>
+
+                    <a href="about.html" class="inline-flex items-center font-medium text-black my-2.5 mx-5">About</a>
+
+                    <a href="contact.html"
+                        class="inline-flex items-center font-medium text-black my-2.5 mx-5">Contact</a>
+                </div>
+
+                <div class="flex flex-row justify-center items-center md:gap-4 gap-2.5">
+                    <div class="md:flex hidden justify-end">
+                        <a href="add-property.html"
+                            class="md:py-4 md:px-6 py-3.75 px-5 w-full rounded-full bg-black text-white transition-transform duration-500 ease-in-out hover:translate-y-1">Add
+                            Property</a>
+                    </div>
+
+                    <div class="flex lg:hidden">
+                        <button type="button"
+                            class="bg-black text-white focus:bg-primary inline-flex justify-center items-center rounded-full md:size-13.5 size-11 p-3.5 font-medium transition-all duration-300"
+                            aria-haspopup="dialog" aria-expanded="false" aria-controls="mobileMenuOffcanvas"
+                            data-hs-overlay="#mobileMenuOffcanvas">
+                            <span class="iconify tabler--menu-2 text-2xl size-5"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Offcanvas) -->
+    <div id="mobileMenuOffcanvas"
+        class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-80 bg-white border-e border-gray-200"
+        role="dialog" tabindex="-1" aria-labelledby="mobileMenuOffcanvas-label">
+        <div class="flex justify-center items-center py-3 px-4 border-b border-gray-200">
+            <a href="index.html">
+                <img src="estatepro/assets/estatepro-C7MboVD_.svg" alt="logo">
+            </a>
+        </div>
+
+        <div class="p-4 overflow-y-scroll h-full">
+            <div>
+                <a href="index.html" class="text-black inline-flex items-center py-2.5 font-medium">Home</a>
+            </div>
+
+            <div class="hs-accordion" id="landing-accordion">
+                <button
+                    class="hs-accordion-toggle text-black w-full flex items-center justify-between py-2.5 font-medium">
+                    <span>Pages</span>
+                    <i class="iconify tabler--chevron-down size-6 hs-accordion-active:rotate-180"></i>
+                </button>
+
+                <div id="landing-accordion"
+                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height]">
+                    <div class="ps-2 pt-2">
+                        <a href="index.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Home
+                        </a>
+
+                        <a href="home2.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Home 2
+                        </a>
+
+                        <a href="about.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            About
+                        </a>
+
+                        <a href="properties-v1.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Properties v1
+                        </a>
+
+                        <a href="properties-v2.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Properties v2
+                        </a>
+
+                        <a href="property-locations.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Property Location
+                        </a>
+
+                        <a href="apartments.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Apartments
+                        </a>
+
+                        <a href="add-property.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Add Property
+                        </a>
+
+                        <a href="pricing.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Pricing
+                        </a>
+
+                        <a href="agents.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Agents
+                        </a>
+
+                        <a href="blog.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Blog
+                        </a>
+
+                        <a href="careers.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Careers
+                        </a>
+
+                        <a href="services.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Services
+                        </a>
+
+                        <a href="reviews.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Reviews
+                        </a>
+
+                        <a href="faq.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            FAQs
+                        </a>
+
+                        <a href="contact.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="properties-v1.html"
+                class="text-black text-base flex items-center py-2.5 font-medium hover:underline">Properties</a>
+
+            <a href="about.html"
+                class="text-black text-base flex items-center py-2.5 font-medium hover:underline">About</a>
+
+            <a href="contact.html"
+                class="text-black text-base flex items-center py-2.5 font-medium hover:underline">Contact</a>
+        </div>
+    </div>
+    <!-- Agent Hero Section -->
+    <section class="md:pt-10 pt-7.5">
+        <div class="container">
+            <div class="md:mb-11.25 mb-5 text-center">
+                <h1 class="mb-2.5 lg:text-[84px] md:text-[58px] text-[40px]">Our expert agents </h1>
+            </div>
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 lg:gap-12.5 gap-3.75">
+                <!-- Agents One  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/1-B_NWBvVL.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25"> Amelia Jackson</h2>
+                                <p class="text-sm">Senior Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents two  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/2-CACh_4m-.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25"> David Hall</h2>
+                                <p class="text-sm">Investment Advisor</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Three  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/3-CLWixhHw.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25"> Evelyn Harris</h2>
+                                <p class="text-sm">Selling Agent</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Four  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/4-C4ou3ID1.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Lucas Moore</h2>
+                                <p class="text-sm">Property Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Five  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/5-B-YDnL-p.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Isabella Wilson</h2>
+                                <p class="text-sm">Real Estate Broker</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Six  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/6-DDF0OXBS.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Olivia Garcia</h2>
+                                <p class="text-sm">Auctioneer</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Seaven  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/7-CWXfn24u.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Louis Crawford</h2>
+                                <p class="text-sm">Senior Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Eight  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/8-BGYK9S-3.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Judy Nguyen</h2>
+                                <p class="text-sm">Investment Advisor</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Nine  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/9-D2JyETyI.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Bryan Knight</h2>
+                                <p class="text-sm">Selling Agent</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Ten  -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/10-DvwbiEzI.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Carolyn Ortiz</h2>
+                                <p class="text-sm">Property Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents Eleven -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/11-DjBlXZwo.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Larry Lawson</h2>
+                                <p class="text-sm">Real Estate Broker</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Agents twelve -->
+                <a href="agents-details.html" class="lg:col-span-1">
+                    <div class="hover:bg-body-bg hover:rounded-2xl duration-500 lg:p-5 p-3.75">
+                        <div class="flex gap-5 flex-col">
+                            <div class="overflow-hidden rounded-2xl">
+                                <img src="estatepro/assets/12-B3skdAz8.png" alt=""
+                                    class="rounded-2xl duration-900 hover:scale-110 transition-all">
+                            </div>
+
+                            <div class="text-center">
+                                <h2 class="text-2xl mb-1.25">Dennis Barrett</h2>
+                                <p class="text-sm">Auctioneer</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lg:pt-32.5 pt-20">
+        <div class="container">
+            <div>
+                <div class="grid md:gap-7.5 md:grid-cols-11 lg:grid-cols-15 lg:gap-20 gap-10 flex-wrap mb-15">
+                    <div class="md:col-span-5 flex flex-col">
+                        <div class="flex  rounded-full relative md:mb-10 mb-5 md:order-1 order-2">
+                            <input type="email" placeholder="Email address"
+                                class="border-none w-full h-16 bg-body-bg rounded-full ps-5">
+                            <a href=""
+                                class="px-6 w-30 inline-block py-2 absolute top-2.5 end-2.5 bottom-2.5 start-auto bg-black text-white rounded-full transition-transform duration-600 ease-in-out hover:translate-y-1">Subscribe!</a>
+                        </div>
+
+                        <p class="text-primary mb-2.5 md:order-2 order-3">The service is designed for savvy investors,
+                            homeowners, and real estate professionals who want to stay ahead in the dynamic property
+                            market. </p>
+
+                        <a href="index.html" class="mb-5 md:mb-0  md:order-3 order-1">
+                            <img src="estatepro/assets/estatepro-C7MboVD_.svg" alt="" class="md:mt-19">
+                        </a>
+                    </div>
+
+                    <div class="md:col-span-4">
+                        <div class="grid grid-cols-2 md:gap-5 gap-2.5">
+                            <div>
+                                <ul class="flex flex-col justify-start gap-3.75 leading-normal">
+                                    <li>
+                                        <a href="index.html" class="text-black no-underline hover:underline">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="home2.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Home
+                                            2</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="about.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">About</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="properties-v1.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Properties
+                                            v1</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="properties-v2.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Properties
+                                            v2 </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="property-locations.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Property
+                                            Location </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="apartments.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Apartments</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="add-property.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Add
+                                            Property</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul class="flex flex-col justify-start gap-3.75 leading-normal">
+                                    <li>
+                                        <a href="pricing.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Pricing</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="agents.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Agents</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="blog.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Blog</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="careers.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Careers</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="services.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Services</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="reviews.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Review</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="faq.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">FAQs</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="contact.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-2">
+                        <div class="flex flex-col gap-10">
+                            <div>
+                                <ul class="flex flex-col justify-start gap-3.75 leading-normal">
+                                    <li>
+                                        <a href="hero.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Style
+                                            Guide</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="features.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Instructions</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="statistics.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Licenses
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="ctas.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Changelog</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="404-error.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Error
+                                            404 </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="coming-soon.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Coming
+                                            Soon</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="link-in-bio.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Link
+                                            in bio </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-4 gap-3.75 flex flex-col">
+                        <a href="#" class="no-underline hover:underline">hello@example.com</a>
+                        <a href="#" class="no-underline hover:underline">+01 598 269 4756 </a>
+                        <p>HS B26, Horton Ford Rd, Eidson, TN, 37731 </p>
+
+                        <div class="flex md:gap-3.75 gap-2.5">
+                            <div class="flex gap-5 justify-center">
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-facebook text-black size-6"></i>
+                                </a>
+
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-instagram text-black size-6"></i>
+                                </a>
+
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-x text-black size-6"></i>
+                                </a>
+
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-dribbble text-black size-6"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-black p-3.75 text-center">
+        <p class="text-white md:text-base text-sm">
+            <script>document.write(new Date().getFullYear())</script> - EstatePro. Crafted with ❤️ By <a
+                href="https://1.envato.market/coderthemes" target="_blank"
+                class="underline hover:no-underline">Coderthemes</a>
+        </p>
+    </div>
+</body>
+
+</html>

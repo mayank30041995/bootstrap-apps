@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>EstatePro - Tailwind CSS Real Estate Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="EstatePro - Full-featured, professional-looking Real Estate, RealEstate and startup website template. Multipurpose Tailwind CSS Landing Page Template">
+    <meta name="keywords"
+        content="saas, saas template, site template, software, startup, digital product, html5, tailwindcss landing, marketing, tailwindcss, agency, digital agency, it solutions, vitejs">
+    <meta content="Coderthemes" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="estatepro/assets/favicon-D0gd9Jx6.ico" />
+    <!-- App Js (Mandatory in All Pages) -->
+    <script type="module" crossorigin src="estatepro/assets/app-N7WemSyv.js"></script>
+    <link rel="stylesheet" crossorigin href="estatepro/assets/app-DiqwdW61.css">
+</head>
+
+<body>
+
+    <header class="bg-white relative z-20 top-0 transition-all duration-300">
+        <div class="container">
+            <div class="flex items-center justify-between lg:py-7.5 py-3.75">
+                <div class="text-lg font-bold">
+                    <a href="index.html">
+                        <img src="estatepro/assets/estatepro-C7MboVD_.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <div id="navbar" class="lg:flex hidden justify-center">
+                    <a href="index.html" class="inline-flex items-center font-medium text-black my-2.5 mx-5">Home</a>
+
+                    <div class="hs-dropdown [--trigger:hover] relative inline-flex  transition-all duration-300">
+                        <button id="hs-dropdown-hover-event" type="button"
+                            class="hs-dropdown-toggle cursor-pointer !no-underline text-black my-2.5 mx-5 flex items-center font-medium"
+                            aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
+                            Pages
+                            <i class="iconify tabler--chevron-down ps-5 size-4"></i>
+                        </button>
+
+                        <div class="hs-dropdown-menu border border-primary transition-[opacity,margin] bg-body-bg rounded-2xl duration hs-dropdown-open:opacity-100 opacity-0 hidden w-[430]  mt-2 after:h-4 after:absolute after:-bottom-4 after:start-0 after:w-full before:h-4 before:absolute before:-top-4 before:start-0 before:w-full"
+                            role="menu" aria-orientation="vertical" aria-labelledby="hs-dropdown-hover-event">
+                            <div class="grid grid-cols-2 p-5 gap-10">
+                                <div>
+                                    <a href="index.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Home
+                                    </a>
+
+                                    <a href="home2.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Home 2
+                                    </a>
+
+                                    <a href="about.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        About
+                                    </a>
+
+                                    <a href="properties-v1.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Properties v1
+                                    </a>
+
+                                    <a href="properties-v2.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Properties v2
+                                    </a>
+
+                                    <a href="property-locations.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Property Location
+                                    </a>
+
+                                    <a href="apartments.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Aparments
+                                    </a>
+
+                                    <a href="add-property.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Add Property
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="pricing.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Pricing
+                                    </a>
+
+                                    <a href="agents.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Agents
+                                    </a>
+
+                                    <a href="blog.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Blog
+                                    </a>
+
+                                    <a href="careers.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Careers
+                                    </a>
+
+                                    <a href="services.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Services
+                                    </a>
+
+                                    <a href="reviews.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Reviews
+                                    </a>
+
+                                    <a href="faq.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        FAQs
+                                    </a>
+
+                                    <a href="contact.html"
+                                        class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                                        Contact
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="properties-v1.html"
+                        class="inline-flex items-center font-medium text-black my-2.5 mx-5">Properties</a>
+
+                    <a href="about.html" class="inline-flex items-center font-medium text-black my-2.5 mx-5">About</a>
+
+                    <a href="contact.html"
+                        class="inline-flex items-center font-medium text-black my-2.5 mx-5">Contact</a>
+                </div>
+
+                <div class="flex flex-row justify-center items-center md:gap-4 gap-2.5">
+                    <div class="md:flex hidden justify-end">
+                        <a href="add-property.html"
+                            class="md:py-4 md:px-6 py-3.75 px-5 w-full rounded-full bg-black text-white transition-transform duration-500 ease-in-out hover:translate-y-1">Add
+                            Property</a>
+                    </div>
+
+                    <div class="flex lg:hidden">
+                        <button type="button"
+                            class="bg-black text-white focus:bg-primary inline-flex justify-center items-center rounded-full md:size-13.5 size-11 p-3.5 font-medium transition-all duration-300"
+                            aria-haspopup="dialog" aria-expanded="false" aria-controls="mobileMenuOffcanvas"
+                            data-hs-overlay="#mobileMenuOffcanvas">
+                            <span class="iconify tabler--menu-2 text-2xl size-5"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Offcanvas) -->
+    <div id="mobileMenuOffcanvas"
+        class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-80 bg-white border-e border-gray-200"
+        role="dialog" tabindex="-1" aria-labelledby="mobileMenuOffcanvas-label">
+        <div class="flex justify-center items-center py-3 px-4 border-b border-gray-200">
+            <a href="index.html">
+                <img src="estatepro/assets/estatepro-C7MboVD_.svg" alt="logo">
+            </a>
+        </div>
+
+        <div class="p-4 overflow-y-scroll h-full">
+            <div>
+                <a href="index.html" class="text-black inline-flex items-center py-2.5 font-medium">Home</a>
+            </div>
+
+            <div class="hs-accordion" id="landing-accordion">
+                <button
+                    class="hs-accordion-toggle text-black w-full flex items-center justify-between py-2.5 font-medium">
+                    <span>Pages</span>
+                    <i class="iconify tabler--chevron-down size-6 hs-accordion-active:rotate-180"></i>
+                </button>
+
+                <div id="landing-accordion"
+                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height]">
+                    <div class="ps-2 pt-2">
+                        <a href="index.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Home
+                        </a>
+
+                        <a href="home2.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Home 2
+                        </a>
+
+                        <a href="about.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            About
+                        </a>
+
+                        <a href="properties-v1.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Properties v1
+                        </a>
+
+                        <a href="properties-v2.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Properties v2
+                        </a>
+
+                        <a href="property-locations.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Property Location
+                        </a>
+
+                        <a href="apartments.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Apartments
+                        </a>
+
+                        <a href="add-property.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Add Property
+                        </a>
+
+                        <a href="pricing.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Pricing
+                        </a>
+
+                        <a href="agents.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Agents
+                        </a>
+
+                        <a href="blog.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Blog
+                        </a>
+
+                        <a href="careers.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Careers
+                        </a>
+
+                        <a href="services.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Services
+                        </a>
+
+                        <a href="reviews.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Reviews
+                        </a>
+
+                        <a href="faq.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            FAQs
+                        </a>
+
+                        <a href="contact.html"
+                            class="flex items-center font-medium text-black rounded-lg text-base py-1.25 hover:underline">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="properties-v1.html"
+                class="text-black text-base flex items-center py-2.5 font-medium hover:underline">Properties</a>
+
+            <a href="about.html"
+                class="text-black text-base flex items-center py-2.5 font-medium hover:underline">About</a>
+
+            <a href="contact.html"
+                class="text-black text-base flex items-center py-2.5 font-medium hover:underline">Contact</a>
+        </div>
+    </div>
+    <!-- Aparment Hero Section -->
+    <section class="md:pt-10 pt-7.5">
+        <div class="container">
+            <div class="text-center md:mb-11.25 mb-5">
+                <h1 class="md:text-6xl text-3xl">Uncover our stylish apartments </h1>
+                <p class="md:mt-5 mt-2.5 text-primary">Our stylish apartments are designed to meet the needs of modern
+                    living, offering a perfect blend of luxury, convenience, and contemporary design. Explore our
+                    diverse range of living spaces and find the perfect home that matches your lifestyle. </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 md:grid-cols-1 lg:gap-12.5 gap-7.5">
+
+                <!-- Aparment Img one -->
+                <div class="lg:col-span-1">
+                    <a href="apartments-details.html" class=" flex flex-col md:gap-3.75">
+                        <div class="overflow-hidden rounded-2xl relative">
+                            <img src="estatepro/assets/5-POnQi6Eo.jpg" alt=""
+                                class="size-full rounded-2xl duration-900 hover:scale-110 transition-all">
+                            <div
+                                class="absolute md:top-5 md:end-5 top-2.5 end-2.5 start-auto bottom-auto flex justify-between">
+                                <div
+                                    class="bg-white rounded-full md:px-4 md:py-2 px-4 py-1.25 text-sm transition-all duration-500">
+                                    Rent </div>
+                            </div>
+
+                            <div
+                                class="absolute top-auto lg:bottom-0 lg:end-0 lg:start-0 bottom-2.5  start-5 flex-wrap lg:mb-7.5 lg:mx-7.5 md:mb-2.5 md:mx-2.5 bg-white lg:p-6.25 md:p-3.75 p-2.5 rounded-2xl">
+                                <h2 class="md:mb-5 mb-2.5 lg:text-2xl md:text-xl text-sm">Downtown apartments - 3rd
+                                    floor 4BHK</h2>
+                                <div class="flex md:gap-5 gap-2.5 flex-col">
+                                    <div class="flex md:gap-6.25 gap-1.25 ">
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='33'%20height='34'%20viewBox='0%200%2033%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_156)'%3e%3cmask%20id='mask0_152_156'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='33'%20height='34'%3e%3cpath%20d='M33%200.5H0V33.5H33V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_156)'%3e%3cpath%20d='M30.9334%2015.9287V8.99181C30.9334%208.15546%2030.2529%207.4751%2029.4167%207.4751H3.58346C2.74712%207.4751%202.06675%208.15546%202.06675%208.99181V15.9287C0.420879%2016.7414%200%2017.5883%200%2018.2411V25.525C0%2026.0765%200.448594%2026.5251%201.00005%2026.5251H2.1265C2.60152%2026.5251%203.01396%2026.187%203.10716%2025.7212L3.37464%2024.3838C3.42581%2024.1277%203.65262%2023.9418%203.91385%2023.9418H29.0861C29.3474%2023.9418%2029.5742%2024.1277%2029.6254%2024.3839L29.8928%2025.7212C29.986%2026.187%2030.3985%2026.5252%2030.8735%2026.5252H31.9999C32.5514%2026.5252%2033%2026.0766%2033%2025.5251V18.2411C33%2017.5883%2032.5791%2016.7414%2030.9334%2015.9287ZM3.03349%208.99181C3.03349%208.68856%203.28021%208.44189%203.5834%208.44189H29.4166C29.7199%208.44189%2029.9665%208.68862%2029.9665%208.99181V15.5116C29.3984%2015.2961%2028.7299%2015.086%2027.9448%2014.8859C27.7955%2014.8479%2027.6431%2014.8109%2027.4892%2014.7745C27.7094%2014.4463%2027.8333%2014.0551%2027.8333%2013.6418V12.0918C27.8333%2010.9706%2026.9212%2010.0584%2025.7999%2010.0584H18.05C17.4294%2010.0584%2016.8732%2010.3381%2016.5%2010.7778C16.1268%2010.3381%2015.5706%2010.0584%2014.95%2010.0584H7.19999C6.07877%2010.0584%205.16663%2010.9706%205.16663%2012.0918V13.6418C5.16663%2014.0526%205.29089%2014.4448%205.51177%2014.7742C5.35747%2014.8106%205.20478%2014.8477%205.05512%2014.8858C4.27002%2015.086%203.60158%2015.2961%203.03349%2015.5115V8.99181ZM26.8665%2012.0918V13.6419C26.8665%2014.0066%2026.6834%2014.339%2026.3824%2014.535C23.6857%2014.0023%2020.4247%2013.7029%2016.9833%2013.6771V12.0918C16.9833%2011.5037%2017.4618%2011.0253%2018.05%2011.0253H25.7999C26.3881%2011.0253%2026.8665%2011.5037%2026.8665%2012.0918ZM16.0165%2012.0918V13.6771C12.5751%2013.7028%209.31399%2014.0023%206.61727%2014.535C6.31699%2014.3388%206.13342%2014.0039%206.13342%2013.6418V12.0918C6.13342%2011.5036%206.61186%2011.0252%207.19999%2011.0252H14.95C15.5381%2011.0252%2016.0165%2011.5037%2016.0165%2012.0918ZM32.0332%2025.5251C32.0332%2025.5435%2032.0183%2025.5584%2031.9999%2025.5584H30.8735C30.8577%2025.5584%2030.844%2025.5471%2030.8409%2025.5316L30.5734%2024.1943C30.4321%2023.4878%2029.8067%2022.975%2029.0861%2022.975H3.91385C3.19333%2022.975%202.56788%2023.4878%202.4266%2024.1943L2.15912%2025.5316C2.15602%2025.5471%202.14229%2025.5584%202.1265%2025.5584H1.00005C0.981686%2025.5584%200.966797%2025.5435%200.966797%2025.5251V21.3585H27.35C27.6169%2021.3585%2027.8334%2021.1421%2027.8334%2020.8751C27.8334%2020.6082%2027.6169%2020.3917%2027.35%2020.3917H0.966797V18.2411C0.966797%2017.6052%202.10356%2016.6359%205.29392%2015.8227C8.2812%2015.0612%2012.2609%2014.6419%2016.5%2014.6419C20.7391%2014.6419%2024.7188%2015.0612%2027.706%2015.8227C30.8964%2016.6359%2032.0331%2017.6052%2032.0331%2018.2411V20.3917H29.4165C29.1496%2020.3917%2028.9331%2020.6082%2028.9331%2020.8751C28.9331%2021.1421%2029.1496%2021.3585%2029.4165%2021.3585H32.0332V25.5251Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_156'%3e%3crect%20width='33'%20height='33'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">5 Beds</p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="estatepro/assets/9-DhZDat4r.svg" alt=""
+                                                class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">4 Bathrooms </p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='30'%20height='31'%20viewBox='0%200%2030%2031'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_150)'%3e%3cmask%20id='mask0_152_150'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='30'%20height='31'%3e%3cpath%20d='M30%200.5H0V30.5H30V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_150)'%3e%3cpath%20d='M20.1832%207.90884H9.81669C8.48903%207.90884%207.40892%208.98901%207.40892%2010.3166V20.6832C7.40892%2022.0109%208.48908%2023.091%209.81669%2023.091H20.1833C21.5109%2023.091%2022.5911%2022.0108%2022.5911%2020.6832V18.54C22.5911%2018.2973%2022.3944%2018.1006%2022.1516%2018.1006C21.9089%2018.1006%2021.7122%2018.2973%2021.7122%2018.54V20.6832C21.7122%2021.5262%2021.0263%2022.2121%2020.1833%2022.2121H9.81669C8.97365%2022.2121%208.28782%2021.5262%208.28782%2020.6832V10.3166C8.28782%209.47358%208.97371%208.78775%209.81669%208.78775H20.1833C21.0263%208.78775%2021.7122%209.47364%2021.7122%2010.3166V16.4893C21.7122%2016.732%2021.9089%2016.9287%2022.1516%2016.9287C22.3944%2016.9287%2022.5911%2016.732%2022.5911%2016.4893V10.3166C22.591%208.98901%2021.5109%207.90884%2020.1832%207.90884ZM1.50043%201.37892H3.39282C3.63551%201.37892%203.83227%201.18216%203.83227%200.93947C3.83227%200.696776%203.63551%200.50002%203.39282%200.50002H0.439539C0.229247%200.497852%20-0.00207901%200.674218%208.89408e-05%200.939587V3.89274C8.89408e-05%204.13544%200.196845%204.33219%200.439539%204.33219C0.682232%204.33219%200.878988%204.13544%200.878988%203.89274V2.00041L6.46299%207.58441C6.63461%207.75603%206.91281%207.75603%207.08443%207.58441C7.25605%207.41279%207.25605%207.13453%207.08443%206.96297L1.50043%201.37892ZM6.46293%2023.4155L0.87893%2028.9995V27.1071C0.87893%2026.8644%200.682173%2026.6676%200.43948%2026.6676C0.196787%2026.6676%203.03475e-05%2026.8644%203.03475e-05%2027.1071V30.0602C-0.00266494%2030.2687%200.174404%2030.503%200.43948%2030.4998H3.39282C3.63551%2030.4998%203.83227%2030.3031%203.83227%2030.0604C3.83227%2029.8177%203.63551%2029.6209%203.39282%2029.6209H1.50043L7.08443%2024.0369C7.25605%2023.8653%207.25605%2023.587%207.08443%2023.4155C6.91281%2023.2439%206.63455%2023.2439%206.46293%2023.4155ZM29.9976%200.895994C29.9776%200.690214%2029.7954%200.495509%2029.5603%200.500079H26.6071C26.3644%200.500079%2026.1677%200.696835%2026.1677%200.939528C26.1677%201.18222%2026.3644%201.37898%2026.6071%201.37898H28.4995L22.9155%206.96297C22.7438%207.13459%2022.7438%207.41285%2022.9155%207.58441C23.0871%207.75603%2023.3653%207.75603%2023.537%207.58441L29.121%202.00047V3.89286C29.121%204.13555%2029.3177%204.33231%2029.5604%204.33231C29.8032%204.33231%2029.9998%204.13555%2029.9998%203.89286V0.939763C29.9998%200.925173%2029.9991%200.910525%2029.9976%200.895994ZM29.5604%2026.6676C29.3177%2026.6676%2029.121%2026.8643%2029.121%2027.107V28.9994L23.537%2023.4155C23.3653%2023.2439%2023.0871%2023.2439%2022.9155%2023.4155C22.7438%2023.5871%2022.7438%2023.8654%2022.9155%2024.0369L28.4995%2029.6209H26.6071C26.3644%2029.6209%2026.1677%2029.8177%2026.1677%2030.0604C26.1677%2030.3031%2026.3644%2030.4998%2026.6071%2030.4998H29.5604C29.7821%2030.5018%2030.0075%2030.3086%2029.9998%2030.0601V27.107C29.9998%2026.8643%2029.8031%2026.6676%2029.5604%2026.6676ZM13.6103%2011.6972C13.8529%2011.6972%2014.0497%2011.5004%2014.0497%2011.2577C14.0497%2011.015%2013.8529%2010.8183%2013.6103%2010.8183H11.1469C10.69%2010.8183%2010.3182%2011.19%2010.3182%2011.6469V19.353C10.3182%2019.8099%2010.69%2020.1816%2011.1469%2020.1816H18.8529C19.3099%2020.1816%2019.6816%2019.8099%2019.6816%2019.353V11.6469C19.6816%2011.19%2019.3099%2010.8183%2018.8529%2010.8183H15.661C15.4183%2010.8183%2015.2216%2011.015%2015.2216%2011.2577C15.2216%2011.5004%2015.4183%2011.6972%2015.661%2011.6972H18.8027V19.3027H11.1972V11.6972H13.6103Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_150'%3e%3crect%20width='30'%20height='30'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">2500 Sq.ft </p>
+                                        </div>
+                                    </div>
+                                    <h3 class="lg:text-xl md:text-lg text-sm">$1,173 USD/month</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Aparment Img Two -->
+                <div class="lg:col-span-1">
+                    <a href="apartments-details.html" class=" flex flex-col md:gap-3.75">
+                        <div class="overflow-hidden rounded-2xl relative">
+                            <img src="estatepro/assets/6-INrT_hRv.jpg" alt=""
+                                class="size-full rounded-2xl duration-900 hover:scale-110 transition-all">
+                            <div
+                                class="absolute md:top-5 md:end-5 top-2.5 end-2.5 start-auto bottom-auto flex justify-between">
+                                <div
+                                    class="bg-white rounded-full md:px-4 md:py-2 px-4 py-1.25 text-sm transition-all duration-500">
+                                    Rent </div>
+                            </div>
+
+                            <div
+                                class="absolute top-auto lg:bottom-0 lg:end-0 lg:start-0 bottom-2.5  start-5 flex-wrap lg:mb-7.5 lg:mx-7.5 md:mb-2.5 md:mx-2.5 bg-white lg:p-6.25 md:p-3.75 p-2.5 rounded-2xl">
+                                <h2 class="md:mb-5 mb-2.5 lg:text-2xl md:text-xl text-sm">Metro view apartments - 4th
+                                    floor 3BHK</h2>
+                                <div class="flex md:gap-5 gap-2.5 flex-col">
+                                    <div class="flex md:gap-6.25 gap-1.25 ">
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='33'%20height='34'%20viewBox='0%200%2033%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_156)'%3e%3cmask%20id='mask0_152_156'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='33'%20height='34'%3e%3cpath%20d='M33%200.5H0V33.5H33V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_156)'%3e%3cpath%20d='M30.9334%2015.9287V8.99181C30.9334%208.15546%2030.2529%207.4751%2029.4167%207.4751H3.58346C2.74712%207.4751%202.06675%208.15546%202.06675%208.99181V15.9287C0.420879%2016.7414%200%2017.5883%200%2018.2411V25.525C0%2026.0765%200.448594%2026.5251%201.00005%2026.5251H2.1265C2.60152%2026.5251%203.01396%2026.187%203.10716%2025.7212L3.37464%2024.3838C3.42581%2024.1277%203.65262%2023.9418%203.91385%2023.9418H29.0861C29.3474%2023.9418%2029.5742%2024.1277%2029.6254%2024.3839L29.8928%2025.7212C29.986%2026.187%2030.3985%2026.5252%2030.8735%2026.5252H31.9999C32.5514%2026.5252%2033%2026.0766%2033%2025.5251V18.2411C33%2017.5883%2032.5791%2016.7414%2030.9334%2015.9287ZM3.03349%208.99181C3.03349%208.68856%203.28021%208.44189%203.5834%208.44189H29.4166C29.7199%208.44189%2029.9665%208.68862%2029.9665%208.99181V15.5116C29.3984%2015.2961%2028.7299%2015.086%2027.9448%2014.8859C27.7955%2014.8479%2027.6431%2014.8109%2027.4892%2014.7745C27.7094%2014.4463%2027.8333%2014.0551%2027.8333%2013.6418V12.0918C27.8333%2010.9706%2026.9212%2010.0584%2025.7999%2010.0584H18.05C17.4294%2010.0584%2016.8732%2010.3381%2016.5%2010.7778C16.1268%2010.3381%2015.5706%2010.0584%2014.95%2010.0584H7.19999C6.07877%2010.0584%205.16663%2010.9706%205.16663%2012.0918V13.6418C5.16663%2014.0526%205.29089%2014.4448%205.51177%2014.7742C5.35747%2014.8106%205.20478%2014.8477%205.05512%2014.8858C4.27002%2015.086%203.60158%2015.2961%203.03349%2015.5115V8.99181ZM26.8665%2012.0918V13.6419C26.8665%2014.0066%2026.6834%2014.339%2026.3824%2014.535C23.6857%2014.0023%2020.4247%2013.7029%2016.9833%2013.6771V12.0918C16.9833%2011.5037%2017.4618%2011.0253%2018.05%2011.0253H25.7999C26.3881%2011.0253%2026.8665%2011.5037%2026.8665%2012.0918ZM16.0165%2012.0918V13.6771C12.5751%2013.7028%209.31399%2014.0023%206.61727%2014.535C6.31699%2014.3388%206.13342%2014.0039%206.13342%2013.6418V12.0918C6.13342%2011.5036%206.61186%2011.0252%207.19999%2011.0252H14.95C15.5381%2011.0252%2016.0165%2011.5037%2016.0165%2012.0918ZM32.0332%2025.5251C32.0332%2025.5435%2032.0183%2025.5584%2031.9999%2025.5584H30.8735C30.8577%2025.5584%2030.844%2025.5471%2030.8409%2025.5316L30.5734%2024.1943C30.4321%2023.4878%2029.8067%2022.975%2029.0861%2022.975H3.91385C3.19333%2022.975%202.56788%2023.4878%202.4266%2024.1943L2.15912%2025.5316C2.15602%2025.5471%202.14229%2025.5584%202.1265%2025.5584H1.00005C0.981686%2025.5584%200.966797%2025.5435%200.966797%2025.5251V21.3585H27.35C27.6169%2021.3585%2027.8334%2021.1421%2027.8334%2020.8751C27.8334%2020.6082%2027.6169%2020.3917%2027.35%2020.3917H0.966797V18.2411C0.966797%2017.6052%202.10356%2016.6359%205.29392%2015.8227C8.2812%2015.0612%2012.2609%2014.6419%2016.5%2014.6419C20.7391%2014.6419%2024.7188%2015.0612%2027.706%2015.8227C30.8964%2016.6359%2032.0331%2017.6052%2032.0331%2018.2411V20.3917H29.4165C29.1496%2020.3917%2028.9331%2020.6082%2028.9331%2020.8751C28.9331%2021.1421%2029.1496%2021.3585%2029.4165%2021.3585H32.0332V25.5251Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_156'%3e%3crect%20width='33'%20height='33'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">5 Beds</p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="estatepro/assets/9-DhZDat4r.svg" alt=""
+                                                class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">4 Bathrooms </p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='30'%20height='31'%20viewBox='0%200%2030%2031'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_150)'%3e%3cmask%20id='mask0_152_150'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='30'%20height='31'%3e%3cpath%20d='M30%200.5H0V30.5H30V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_150)'%3e%3cpath%20d='M20.1832%207.90884H9.81669C8.48903%207.90884%207.40892%208.98901%207.40892%2010.3166V20.6832C7.40892%2022.0109%208.48908%2023.091%209.81669%2023.091H20.1833C21.5109%2023.091%2022.5911%2022.0108%2022.5911%2020.6832V18.54C22.5911%2018.2973%2022.3944%2018.1006%2022.1516%2018.1006C21.9089%2018.1006%2021.7122%2018.2973%2021.7122%2018.54V20.6832C21.7122%2021.5262%2021.0263%2022.2121%2020.1833%2022.2121H9.81669C8.97365%2022.2121%208.28782%2021.5262%208.28782%2020.6832V10.3166C8.28782%209.47358%208.97371%208.78775%209.81669%208.78775H20.1833C21.0263%208.78775%2021.7122%209.47364%2021.7122%2010.3166V16.4893C21.7122%2016.732%2021.9089%2016.9287%2022.1516%2016.9287C22.3944%2016.9287%2022.5911%2016.732%2022.5911%2016.4893V10.3166C22.591%208.98901%2021.5109%207.90884%2020.1832%207.90884ZM1.50043%201.37892H3.39282C3.63551%201.37892%203.83227%201.18216%203.83227%200.93947C3.83227%200.696776%203.63551%200.50002%203.39282%200.50002H0.439539C0.229247%200.497852%20-0.00207901%200.674218%208.89408e-05%200.939587V3.89274C8.89408e-05%204.13544%200.196845%204.33219%200.439539%204.33219C0.682232%204.33219%200.878988%204.13544%200.878988%203.89274V2.00041L6.46299%207.58441C6.63461%207.75603%206.91281%207.75603%207.08443%207.58441C7.25605%207.41279%207.25605%207.13453%207.08443%206.96297L1.50043%201.37892ZM6.46293%2023.4155L0.87893%2028.9995V27.1071C0.87893%2026.8644%200.682173%2026.6676%200.43948%2026.6676C0.196787%2026.6676%203.03475e-05%2026.8644%203.03475e-05%2027.1071V30.0602C-0.00266494%2030.2687%200.174404%2030.503%200.43948%2030.4998H3.39282C3.63551%2030.4998%203.83227%2030.3031%203.83227%2030.0604C3.83227%2029.8177%203.63551%2029.6209%203.39282%2029.6209H1.50043L7.08443%2024.0369C7.25605%2023.8653%207.25605%2023.587%207.08443%2023.4155C6.91281%2023.2439%206.63455%2023.2439%206.46293%2023.4155ZM29.9976%200.895994C29.9776%200.690214%2029.7954%200.495509%2029.5603%200.500079H26.6071C26.3644%200.500079%2026.1677%200.696835%2026.1677%200.939528C26.1677%201.18222%2026.3644%201.37898%2026.6071%201.37898H28.4995L22.9155%206.96297C22.7438%207.13459%2022.7438%207.41285%2022.9155%207.58441C23.0871%207.75603%2023.3653%207.75603%2023.537%207.58441L29.121%202.00047V3.89286C29.121%204.13555%2029.3177%204.33231%2029.5604%204.33231C29.8032%204.33231%2029.9998%204.13555%2029.9998%203.89286V0.939763C29.9998%200.925173%2029.9991%200.910525%2029.9976%200.895994ZM29.5604%2026.6676C29.3177%2026.6676%2029.121%2026.8643%2029.121%2027.107V28.9994L23.537%2023.4155C23.3653%2023.2439%2023.0871%2023.2439%2022.9155%2023.4155C22.7438%2023.5871%2022.7438%2023.8654%2022.9155%2024.0369L28.4995%2029.6209H26.6071C26.3644%2029.6209%2026.1677%2029.8177%2026.1677%2030.0604C26.1677%2030.3031%2026.3644%2030.4998%2026.6071%2030.4998H29.5604C29.7821%2030.5018%2030.0075%2030.3086%2029.9998%2030.0601V27.107C29.9998%2026.8643%2029.8031%2026.6676%2029.5604%2026.6676ZM13.6103%2011.6972C13.8529%2011.6972%2014.0497%2011.5004%2014.0497%2011.2577C14.0497%2011.015%2013.8529%2010.8183%2013.6103%2010.8183H11.1469C10.69%2010.8183%2010.3182%2011.19%2010.3182%2011.6469V19.353C10.3182%2019.8099%2010.69%2020.1816%2011.1469%2020.1816H18.8529C19.3099%2020.1816%2019.6816%2019.8099%2019.6816%2019.353V11.6469C19.6816%2011.19%2019.3099%2010.8183%2018.8529%2010.8183H15.661C15.4183%2010.8183%2015.2216%2011.015%2015.2216%2011.2577C15.2216%2011.5004%2015.4183%2011.6972%2015.661%2011.6972H18.8027V19.3027H11.1972V11.6972H13.6103Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_150'%3e%3crect%20width='30'%20height='30'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">2500 Sq.ft </p>
+                                        </div>
+                                    </div>
+                                    <h3 class="lg:text-xl md:text-lg text-sm">$877 USD/month</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Aparment Img Three -->
+                <div class="lg:col-span-1">
+                    <a href="apartments-details.html" class=" flex flex-col md:gap-3.75">
+                        <div class="overflow-hidden rounded-2xl relative">
+                            <img src="estatepro/assets/7-CTjqMTrx.jpg" alt=""
+                                class="size-full rounded-2xl duration-900 hover:scale-110 transition-all">
+                            <div
+                                class="absolute md:top-5 md:end-5 top-2.5 end-2.5 start-auto bottom-auto flex justify-between">
+                                <div
+                                    class="bg-white rounded-full md:px-4 md:py-2 px-4 py-1.25 text-sm transition-all duration-500">
+                                    Sell </div>
+                            </div>
+
+                            <div
+                                class="absolute top-auto lg:bottom-0 lg:end-0 lg:start-0 bottom-2.5  start-5 flex-wrap lg:mb-7.5 lg:mx-7.5 md:mb-2.5 md:mx-2.5 bg-white lg:p-6.25 md:p-3.75 p-2.5 rounded-2xl">
+                                <h2 class="md:mb-5 mb-2.5 lg:text-2xl md:text-xl text-sm">Lake haven apartments - 2nd
+                                    floor 3BHK</h2>
+                                <div class="flex md:gap-5 gap-2.5 flex-col">
+                                    <div class="flex md:gap-6.25 gap-1.25 ">
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='33'%20height='34'%20viewBox='0%200%2033%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_156)'%3e%3cmask%20id='mask0_152_156'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='33'%20height='34'%3e%3cpath%20d='M33%200.5H0V33.5H33V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_156)'%3e%3cpath%20d='M30.9334%2015.9287V8.99181C30.9334%208.15546%2030.2529%207.4751%2029.4167%207.4751H3.58346C2.74712%207.4751%202.06675%208.15546%202.06675%208.99181V15.9287C0.420879%2016.7414%200%2017.5883%200%2018.2411V25.525C0%2026.0765%200.448594%2026.5251%201.00005%2026.5251H2.1265C2.60152%2026.5251%203.01396%2026.187%203.10716%2025.7212L3.37464%2024.3838C3.42581%2024.1277%203.65262%2023.9418%203.91385%2023.9418H29.0861C29.3474%2023.9418%2029.5742%2024.1277%2029.6254%2024.3839L29.8928%2025.7212C29.986%2026.187%2030.3985%2026.5252%2030.8735%2026.5252H31.9999C32.5514%2026.5252%2033%2026.0766%2033%2025.5251V18.2411C33%2017.5883%2032.5791%2016.7414%2030.9334%2015.9287ZM3.03349%208.99181C3.03349%208.68856%203.28021%208.44189%203.5834%208.44189H29.4166C29.7199%208.44189%2029.9665%208.68862%2029.9665%208.99181V15.5116C29.3984%2015.2961%2028.7299%2015.086%2027.9448%2014.8859C27.7955%2014.8479%2027.6431%2014.8109%2027.4892%2014.7745C27.7094%2014.4463%2027.8333%2014.0551%2027.8333%2013.6418V12.0918C27.8333%2010.9706%2026.9212%2010.0584%2025.7999%2010.0584H18.05C17.4294%2010.0584%2016.8732%2010.3381%2016.5%2010.7778C16.1268%2010.3381%2015.5706%2010.0584%2014.95%2010.0584H7.19999C6.07877%2010.0584%205.16663%2010.9706%205.16663%2012.0918V13.6418C5.16663%2014.0526%205.29089%2014.4448%205.51177%2014.7742C5.35747%2014.8106%205.20478%2014.8477%205.05512%2014.8858C4.27002%2015.086%203.60158%2015.2961%203.03349%2015.5115V8.99181ZM26.8665%2012.0918V13.6419C26.8665%2014.0066%2026.6834%2014.339%2026.3824%2014.535C23.6857%2014.0023%2020.4247%2013.7029%2016.9833%2013.6771V12.0918C16.9833%2011.5037%2017.4618%2011.0253%2018.05%2011.0253H25.7999C26.3881%2011.0253%2026.8665%2011.5037%2026.8665%2012.0918ZM16.0165%2012.0918V13.6771C12.5751%2013.7028%209.31399%2014.0023%206.61727%2014.535C6.31699%2014.3388%206.13342%2014.0039%206.13342%2013.6418V12.0918C6.13342%2011.5036%206.61186%2011.0252%207.19999%2011.0252H14.95C15.5381%2011.0252%2016.0165%2011.5037%2016.0165%2012.0918ZM32.0332%2025.5251C32.0332%2025.5435%2032.0183%2025.5584%2031.9999%2025.5584H30.8735C30.8577%2025.5584%2030.844%2025.5471%2030.8409%2025.5316L30.5734%2024.1943C30.4321%2023.4878%2029.8067%2022.975%2029.0861%2022.975H3.91385C3.19333%2022.975%202.56788%2023.4878%202.4266%2024.1943L2.15912%2025.5316C2.15602%2025.5471%202.14229%2025.5584%202.1265%2025.5584H1.00005C0.981686%2025.5584%200.966797%2025.5435%200.966797%2025.5251V21.3585H27.35C27.6169%2021.3585%2027.8334%2021.1421%2027.8334%2020.8751C27.8334%2020.6082%2027.6169%2020.3917%2027.35%2020.3917H0.966797V18.2411C0.966797%2017.6052%202.10356%2016.6359%205.29392%2015.8227C8.2812%2015.0612%2012.2609%2014.6419%2016.5%2014.6419C20.7391%2014.6419%2024.7188%2015.0612%2027.706%2015.8227C30.8964%2016.6359%2032.0331%2017.6052%2032.0331%2018.2411V20.3917H29.4165C29.1496%2020.3917%2028.9331%2020.6082%2028.9331%2020.8751C28.9331%2021.1421%2029.1496%2021.3585%2029.4165%2021.3585H32.0332V25.5251Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_156'%3e%3crect%20width='33'%20height='33'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">5 Beds</p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="estatepro/assets/9-DhZDat4r.svg" alt=""
+                                                class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">4 Bathrooms </p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='30'%20height='31'%20viewBox='0%200%2030%2031'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_150)'%3e%3cmask%20id='mask0_152_150'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='30'%20height='31'%3e%3cpath%20d='M30%200.5H0V30.5H30V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_150)'%3e%3cpath%20d='M20.1832%207.90884H9.81669C8.48903%207.90884%207.40892%208.98901%207.40892%2010.3166V20.6832C7.40892%2022.0109%208.48908%2023.091%209.81669%2023.091H20.1833C21.5109%2023.091%2022.5911%2022.0108%2022.5911%2020.6832V18.54C22.5911%2018.2973%2022.3944%2018.1006%2022.1516%2018.1006C21.9089%2018.1006%2021.7122%2018.2973%2021.7122%2018.54V20.6832C21.7122%2021.5262%2021.0263%2022.2121%2020.1833%2022.2121H9.81669C8.97365%2022.2121%208.28782%2021.5262%208.28782%2020.6832V10.3166C8.28782%209.47358%208.97371%208.78775%209.81669%208.78775H20.1833C21.0263%208.78775%2021.7122%209.47364%2021.7122%2010.3166V16.4893C21.7122%2016.732%2021.9089%2016.9287%2022.1516%2016.9287C22.3944%2016.9287%2022.5911%2016.732%2022.5911%2016.4893V10.3166C22.591%208.98901%2021.5109%207.90884%2020.1832%207.90884ZM1.50043%201.37892H3.39282C3.63551%201.37892%203.83227%201.18216%203.83227%200.93947C3.83227%200.696776%203.63551%200.50002%203.39282%200.50002H0.439539C0.229247%200.497852%20-0.00207901%200.674218%208.89408e-05%200.939587V3.89274C8.89408e-05%204.13544%200.196845%204.33219%200.439539%204.33219C0.682232%204.33219%200.878988%204.13544%200.878988%203.89274V2.00041L6.46299%207.58441C6.63461%207.75603%206.91281%207.75603%207.08443%207.58441C7.25605%207.41279%207.25605%207.13453%207.08443%206.96297L1.50043%201.37892ZM6.46293%2023.4155L0.87893%2028.9995V27.1071C0.87893%2026.8644%200.682173%2026.6676%200.43948%2026.6676C0.196787%2026.6676%203.03475e-05%2026.8644%203.03475e-05%2027.1071V30.0602C-0.00266494%2030.2687%200.174404%2030.503%200.43948%2030.4998H3.39282C3.63551%2030.4998%203.83227%2030.3031%203.83227%2030.0604C3.83227%2029.8177%203.63551%2029.6209%203.39282%2029.6209H1.50043L7.08443%2024.0369C7.25605%2023.8653%207.25605%2023.587%207.08443%2023.4155C6.91281%2023.2439%206.63455%2023.2439%206.46293%2023.4155ZM29.9976%200.895994C29.9776%200.690214%2029.7954%200.495509%2029.5603%200.500079H26.6071C26.3644%200.500079%2026.1677%200.696835%2026.1677%200.939528C26.1677%201.18222%2026.3644%201.37898%2026.6071%201.37898H28.4995L22.9155%206.96297C22.7438%207.13459%2022.7438%207.41285%2022.9155%207.58441C23.0871%207.75603%2023.3653%207.75603%2023.537%207.58441L29.121%202.00047V3.89286C29.121%204.13555%2029.3177%204.33231%2029.5604%204.33231C29.8032%204.33231%2029.9998%204.13555%2029.9998%203.89286V0.939763C29.9998%200.925173%2029.9991%200.910525%2029.9976%200.895994ZM29.5604%2026.6676C29.3177%2026.6676%2029.121%2026.8643%2029.121%2027.107V28.9994L23.537%2023.4155C23.3653%2023.2439%2023.0871%2023.2439%2022.9155%2023.4155C22.7438%2023.5871%2022.7438%2023.8654%2022.9155%2024.0369L28.4995%2029.6209H26.6071C26.3644%2029.6209%2026.1677%2029.8177%2026.1677%2030.0604C26.1677%2030.3031%2026.3644%2030.4998%2026.6071%2030.4998H29.5604C29.7821%2030.5018%2030.0075%2030.3086%2029.9998%2030.0601V27.107C29.9998%2026.8643%2029.8031%2026.6676%2029.5604%2026.6676ZM13.6103%2011.6972C13.8529%2011.6972%2014.0497%2011.5004%2014.0497%2011.2577C14.0497%2011.015%2013.8529%2010.8183%2013.6103%2010.8183H11.1469C10.69%2010.8183%2010.3182%2011.19%2010.3182%2011.6469V19.353C10.3182%2019.8099%2010.69%2020.1816%2011.1469%2020.1816H18.8529C19.3099%2020.1816%2019.6816%2019.8099%2019.6816%2019.353V11.6469C19.6816%2011.19%2019.3099%2010.8183%2018.8529%2010.8183H15.661C15.4183%2010.8183%2015.2216%2011.015%2015.2216%2011.2577C15.2216%2011.5004%2015.4183%2011.6972%2015.661%2011.6972H18.8027V19.3027H11.1972V11.6972H13.6103Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_150'%3e%3crect%20width='30'%20height='30'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">2500 Sq.ft </p>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="lg:text-xl md:text-lg text-sm">$98,215 USD/month</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Aparment Img Four -->
+                <div class="lg:col-span-1">
+                    <a href="apartments-details.html" class=" flex flex-col md:gap-3.75">
+                        <div class="overflow-hidden rounded-2xl relative">
+                            <img src="estatepro/assets/8-DC4sRuBT.jpg" alt=""
+                                class="size-full rounded-2xl duration-900 hover:scale-110 transition-all">
+                            <div
+                                class="absolute md:top-5 md:end-5 top-2.5 end-2.5 start-auto bottom-auto flex justify-between">
+                                <div
+                                    class="bg-white rounded-full md:px-4 md:py-2 px-4 py-1.25 text-sm transition-all duration-500">
+                                    Rent </div>
+                            </div>
+
+                            <div
+                                class="absolute top-auto lg:bottom-0 lg:end-0 lg:start-0 bottom-2.5  start-5 flex-wrap lg:mb-7.5 lg:mx-7.5 md:mb-2.5 md:mx-2.5 bg-white lg:p-6.25 md:p-3.75 p-2.5 rounded-2xl">
+                                <h2 class="md:mb-5 mb-2.5 lg:text-2xl md:text-xl text-sm">Pet-friendly garden - 2nd
+                                    floor 3BHK</h2>
+                                <div class="flex md:gap-5 gap-2.5 flex-col">
+                                    <div class="flex md:gap-6.25 gap-1.25 ">
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='33'%20height='34'%20viewBox='0%200%2033%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_156)'%3e%3cmask%20id='mask0_152_156'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='33'%20height='34'%3e%3cpath%20d='M33%200.5H0V33.5H33V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_156)'%3e%3cpath%20d='M30.9334%2015.9287V8.99181C30.9334%208.15546%2030.2529%207.4751%2029.4167%207.4751H3.58346C2.74712%207.4751%202.06675%208.15546%202.06675%208.99181V15.9287C0.420879%2016.7414%200%2017.5883%200%2018.2411V25.525C0%2026.0765%200.448594%2026.5251%201.00005%2026.5251H2.1265C2.60152%2026.5251%203.01396%2026.187%203.10716%2025.7212L3.37464%2024.3838C3.42581%2024.1277%203.65262%2023.9418%203.91385%2023.9418H29.0861C29.3474%2023.9418%2029.5742%2024.1277%2029.6254%2024.3839L29.8928%2025.7212C29.986%2026.187%2030.3985%2026.5252%2030.8735%2026.5252H31.9999C32.5514%2026.5252%2033%2026.0766%2033%2025.5251V18.2411C33%2017.5883%2032.5791%2016.7414%2030.9334%2015.9287ZM3.03349%208.99181C3.03349%208.68856%203.28021%208.44189%203.5834%208.44189H29.4166C29.7199%208.44189%2029.9665%208.68862%2029.9665%208.99181V15.5116C29.3984%2015.2961%2028.7299%2015.086%2027.9448%2014.8859C27.7955%2014.8479%2027.6431%2014.8109%2027.4892%2014.7745C27.7094%2014.4463%2027.8333%2014.0551%2027.8333%2013.6418V12.0918C27.8333%2010.9706%2026.9212%2010.0584%2025.7999%2010.0584H18.05C17.4294%2010.0584%2016.8732%2010.3381%2016.5%2010.7778C16.1268%2010.3381%2015.5706%2010.0584%2014.95%2010.0584H7.19999C6.07877%2010.0584%205.16663%2010.9706%205.16663%2012.0918V13.6418C5.16663%2014.0526%205.29089%2014.4448%205.51177%2014.7742C5.35747%2014.8106%205.20478%2014.8477%205.05512%2014.8858C4.27002%2015.086%203.60158%2015.2961%203.03349%2015.5115V8.99181ZM26.8665%2012.0918V13.6419C26.8665%2014.0066%2026.6834%2014.339%2026.3824%2014.535C23.6857%2014.0023%2020.4247%2013.7029%2016.9833%2013.6771V12.0918C16.9833%2011.5037%2017.4618%2011.0253%2018.05%2011.0253H25.7999C26.3881%2011.0253%2026.8665%2011.5037%2026.8665%2012.0918ZM16.0165%2012.0918V13.6771C12.5751%2013.7028%209.31399%2014.0023%206.61727%2014.535C6.31699%2014.3388%206.13342%2014.0039%206.13342%2013.6418V12.0918C6.13342%2011.5036%206.61186%2011.0252%207.19999%2011.0252H14.95C15.5381%2011.0252%2016.0165%2011.5037%2016.0165%2012.0918ZM32.0332%2025.5251C32.0332%2025.5435%2032.0183%2025.5584%2031.9999%2025.5584H30.8735C30.8577%2025.5584%2030.844%2025.5471%2030.8409%2025.5316L30.5734%2024.1943C30.4321%2023.4878%2029.8067%2022.975%2029.0861%2022.975H3.91385C3.19333%2022.975%202.56788%2023.4878%202.4266%2024.1943L2.15912%2025.5316C2.15602%2025.5471%202.14229%2025.5584%202.1265%2025.5584H1.00005C0.981686%2025.5584%200.966797%2025.5435%200.966797%2025.5251V21.3585H27.35C27.6169%2021.3585%2027.8334%2021.1421%2027.8334%2020.8751C27.8334%2020.6082%2027.6169%2020.3917%2027.35%2020.3917H0.966797V18.2411C0.966797%2017.6052%202.10356%2016.6359%205.29392%2015.8227C8.2812%2015.0612%2012.2609%2014.6419%2016.5%2014.6419C20.7391%2014.6419%2024.7188%2015.0612%2027.706%2015.8227C30.8964%2016.6359%2032.0331%2017.6052%2032.0331%2018.2411V20.3917H29.4165C29.1496%2020.3917%2028.9331%2020.6082%2028.9331%2020.8751C28.9331%2021.1421%2029.1496%2021.3585%2029.4165%2021.3585H32.0332V25.5251Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_156'%3e%3crect%20width='33'%20height='33'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">5 Beds</p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="estatepro/assets/9-DhZDat4r.svg" alt=""
+                                                class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">4 Bathrooms </p>
+                                        </div>
+
+                                        <div class="flex items-center gap-2.5">
+                                            <img src="data:image/svg+xml,%3csvg%20width='30'%20height='31'%20viewBox='0%200%2030%2031'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_152_150)'%3e%3cmask%20id='mask0_152_150'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='30'%20height='31'%3e%3cpath%20d='M30%200.5H0V30.5H30V0.5Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_152_150)'%3e%3cpath%20d='M20.1832%207.90884H9.81669C8.48903%207.90884%207.40892%208.98901%207.40892%2010.3166V20.6832C7.40892%2022.0109%208.48908%2023.091%209.81669%2023.091H20.1833C21.5109%2023.091%2022.5911%2022.0108%2022.5911%2020.6832V18.54C22.5911%2018.2973%2022.3944%2018.1006%2022.1516%2018.1006C21.9089%2018.1006%2021.7122%2018.2973%2021.7122%2018.54V20.6832C21.7122%2021.5262%2021.0263%2022.2121%2020.1833%2022.2121H9.81669C8.97365%2022.2121%208.28782%2021.5262%208.28782%2020.6832V10.3166C8.28782%209.47358%208.97371%208.78775%209.81669%208.78775H20.1833C21.0263%208.78775%2021.7122%209.47364%2021.7122%2010.3166V16.4893C21.7122%2016.732%2021.9089%2016.9287%2022.1516%2016.9287C22.3944%2016.9287%2022.5911%2016.732%2022.5911%2016.4893V10.3166C22.591%208.98901%2021.5109%207.90884%2020.1832%207.90884ZM1.50043%201.37892H3.39282C3.63551%201.37892%203.83227%201.18216%203.83227%200.93947C3.83227%200.696776%203.63551%200.50002%203.39282%200.50002H0.439539C0.229247%200.497852%20-0.00207901%200.674218%208.89408e-05%200.939587V3.89274C8.89408e-05%204.13544%200.196845%204.33219%200.439539%204.33219C0.682232%204.33219%200.878988%204.13544%200.878988%203.89274V2.00041L6.46299%207.58441C6.63461%207.75603%206.91281%207.75603%207.08443%207.58441C7.25605%207.41279%207.25605%207.13453%207.08443%206.96297L1.50043%201.37892ZM6.46293%2023.4155L0.87893%2028.9995V27.1071C0.87893%2026.8644%200.682173%2026.6676%200.43948%2026.6676C0.196787%2026.6676%203.03475e-05%2026.8644%203.03475e-05%2027.1071V30.0602C-0.00266494%2030.2687%200.174404%2030.503%200.43948%2030.4998H3.39282C3.63551%2030.4998%203.83227%2030.3031%203.83227%2030.0604C3.83227%2029.8177%203.63551%2029.6209%203.39282%2029.6209H1.50043L7.08443%2024.0369C7.25605%2023.8653%207.25605%2023.587%207.08443%2023.4155C6.91281%2023.2439%206.63455%2023.2439%206.46293%2023.4155ZM29.9976%200.895994C29.9776%200.690214%2029.7954%200.495509%2029.5603%200.500079H26.6071C26.3644%200.500079%2026.1677%200.696835%2026.1677%200.939528C26.1677%201.18222%2026.3644%201.37898%2026.6071%201.37898H28.4995L22.9155%206.96297C22.7438%207.13459%2022.7438%207.41285%2022.9155%207.58441C23.0871%207.75603%2023.3653%207.75603%2023.537%207.58441L29.121%202.00047V3.89286C29.121%204.13555%2029.3177%204.33231%2029.5604%204.33231C29.8032%204.33231%2029.9998%204.13555%2029.9998%203.89286V0.939763C29.9998%200.925173%2029.9991%200.910525%2029.9976%200.895994ZM29.5604%2026.6676C29.3177%2026.6676%2029.121%2026.8643%2029.121%2027.107V28.9994L23.537%2023.4155C23.3653%2023.2439%2023.0871%2023.2439%2022.9155%2023.4155C22.7438%2023.5871%2022.7438%2023.8654%2022.9155%2024.0369L28.4995%2029.6209H26.6071C26.3644%2029.6209%2026.1677%2029.8177%2026.1677%2030.0604C26.1677%2030.3031%2026.3644%2030.4998%2026.6071%2030.4998H29.5604C29.7821%2030.5018%2030.0075%2030.3086%2029.9998%2030.0601V27.107C29.9998%2026.8643%2029.8031%2026.6676%2029.5604%2026.6676ZM13.6103%2011.6972C13.8529%2011.6972%2014.0497%2011.5004%2014.0497%2011.2577C14.0497%2011.015%2013.8529%2010.8183%2013.6103%2010.8183H11.1469C10.69%2010.8183%2010.3182%2011.19%2010.3182%2011.6469V19.353C10.3182%2019.8099%2010.69%2020.1816%2011.1469%2020.1816H18.8529C19.3099%2020.1816%2019.6816%2019.8099%2019.6816%2019.353V11.6469C19.6816%2011.19%2019.3099%2010.8183%2018.8529%2010.8183H15.661C15.4183%2010.8183%2015.2216%2011.015%2015.2216%2011.2577C15.2216%2011.5004%2015.4183%2011.6972%2015.661%2011.6972H18.8027V19.3027H11.1972V11.6972H13.6103Z'%20fill='black'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_152_150'%3e%3crect%20width='30'%20height='30'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt="" class="text-primary lg:size-7.5 size-5">
+                                            <p class="lg:text-base md:textsm text-xs">2500 Sq.ft </p>
+                                        </div>
+                                    </div>
+                                    <h3 class="lg:text-xl md:text-lg text-sm">$2,000/month</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lg:pt-32.5 pt-20">
+        <div class="container">
+            <div>
+                <div class="grid md:gap-7.5 md:grid-cols-11 lg:grid-cols-15 lg:gap-20 gap-10 flex-wrap mb-15">
+                    <div class="md:col-span-5 flex flex-col">
+                        <div class="flex  rounded-full relative md:mb-10 mb-5 md:order-1 order-2">
+                            <input type="email" placeholder="Email address"
+                                class="border-none w-full h-16 bg-body-bg rounded-full ps-5">
+                            <a href=""
+                                class="px-6 w-30 inline-block py-2 absolute top-2.5 end-2.5 bottom-2.5 start-auto bg-black text-white rounded-full transition-transform duration-600 ease-in-out hover:translate-y-1">Subscribe!</a>
+                        </div>
+
+                        <p class="text-primary mb-2.5 md:order-2 order-3">The service is designed for savvy investors,
+                            homeowners, and real estate professionals who want to stay ahead in the dynamic property
+                            market. </p>
+
+                        <a href="index.html" class="mb-5 md:mb-0  md:order-3 order-1">
+                            <img src="estatepro/assets/estatepro-C7MboVD_.svg" alt="" class="md:mt-19">
+                        </a>
+                    </div>
+
+                    <div class="md:col-span-4">
+                        <div class="grid grid-cols-2 md:gap-5 gap-2.5">
+                            <div>
+                                <ul class="flex flex-col justify-start gap-3.75 leading-normal">
+                                    <li>
+                                        <a href="index.html" class="text-black no-underline hover:underline">Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="home2.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Home
+                                            2</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="about.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">About</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="properties-v1.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Properties
+                                            v1</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="properties-v2.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Properties
+                                            v2 </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="property-locations.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Property
+                                            Location </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="apartments.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Apartments</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="add-property.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Add
+                                            Property</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul class="flex flex-col justify-start gap-3.75 leading-normal">
+                                    <li>
+                                        <a href="pricing.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Pricing</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="agents.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Agents</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="blog.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Blog</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="careers.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Careers</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="services.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Services</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="reviews.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Review</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="faq.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">FAQs</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="contact.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-2">
+                        <div class="flex flex-col gap-10">
+                            <div>
+                                <ul class="flex flex-col justify-start gap-3.75 leading-normal">
+                                    <li>
+                                        <a href="hero.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Style
+                                            Guide</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="features.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Instructions</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="statistics.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Licenses
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="ctas.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Changelog</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="404-error.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Error
+                                            404 </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="coming-soon.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Coming
+                                            Soon</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="link-in-bio.html"
+                                            class="no-underline hover:underline text-black transition-all duration-300">Link
+                                            in bio </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-4 gap-3.75 flex flex-col">
+                        <a href="#" class="no-underline hover:underline">hello@example.com</a>
+                        <a href="#" class="no-underline hover:underline">+01 598 269 4756 </a>
+                        <p>HS B26, Horton Ford Rd, Eidson, TN, 37731 </p>
+
+                        <div class="flex md:gap-3.75 gap-2.5">
+                            <div class="flex gap-5 justify-center">
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-facebook text-black size-6"></i>
+                                </a>
+
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-instagram text-black size-6"></i>
+                                </a>
+
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-x text-black size-6"></i>
+                                </a>
+
+                                <a href="#"
+                                    class="bg-body-bg rounded-full size-12.5 flex justify-center items-center transition-transform duration-500 ease-in-out hover:translate-y-1">
+                                    <i class="iconify tabler--brand-dribbble text-black size-6"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-black p-3.75 text-center">
+        <p class="text-white md:text-base text-sm">
+            <script>document.write(new Date().getFullYear())</script> - EstatePro. Crafted with ❤️ By <a
+                href="https://1.envato.market/coderthemes" target="_blank"
+                class="underline hover:no-underline">Coderthemes</a>
+        </p>
+    </div>
+</body>
+
+</html>
