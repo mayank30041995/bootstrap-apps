@@ -13133,9 +13133,9 @@ blockquote cite::before {
   height: 100%;
   background: linear-gradient(
     90deg,
-    #ffe8df 0%,
-    rgba(255, 236, 228, 0.85) 70.23%,
-    rgba(252, 244, 241, 0) 100%
+    #ecf9ff 0%,
+    rgba(228, 243, 255, 0.85) 10.13%,
+    rgba(252, 244, 241, 0) 60%
   );
   z-index: -1;
 }
